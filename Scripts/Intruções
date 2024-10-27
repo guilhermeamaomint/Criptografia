@@ -2,7 +2,7 @@ Boa tarde cavalheiros, para usar o codigo primeiro vc precisa do pycryptodome e 
 
 pip install pycryptodome
 
-pip install cryptodome
+pip install crypto
 
 Com tudo instalado e pronto é só rodar o codigo em algum terminal, como cmd ou mesmo dentro do vscode.
 
