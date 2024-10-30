@@ -49,17 +49,18 @@ def main():
             continue
         
         password = input("Key: ").strip()
-        text = input("Seed: ").strip()
         
         if action == 'e':
+            text = input("Seed: ").strip()
             encrypted_text = encrypt(text, password)
-            print("Seed criptografadas:", encrypted_text)
+            print("Seed criptografada:", encrypted_text)
         elif action == 'd':
             try:
+                text = input("Seed criptografada: ").strip()
                 decrypted_text = decrypt(text, password)
                 print("Seed descriptografada:", decrypted_text)
             except Exception as e:
-                print("Erro:", str(e))
+                print("Opa meu cumpadi")
 
 if __name__ == "__main__":
     main()
