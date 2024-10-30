@@ -63,8 +63,5 @@ def main():
                 encrypted_text = encrypt(text, password)
                 print("Seed descriptografada:", encrypted_text)
 
-# limite = 10
-# resposta_limitada = resposta[:limite]
-
 if __name__ == "__main__":
     main()
