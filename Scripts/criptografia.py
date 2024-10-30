@@ -61,14 +61,7 @@ def main():
                 print("Seed descriptografada:", decrypted_text)
             except Exception as e:
                 encrypted_text = encrypt(text, password)
-                tamanho = len(text)
-                tamanho2 = len(encrypted_text)
-                tamanho3 = len(password)
-                print("tamanho da chave:",tamanho3)
-                print("tamanho do imput:",tamanho)
-                print("tamanho seed:",tamanho2)
-                print("Seed descriptografada:", encrypted_text[:tamanho])
-                print("Seed descriptografada normal:", encrypted_text)
+                print("Seed descriptografada:", encrypted_text)
 
 # limite = 10
 # resposta_limitada = resposta[:limite]
